@@ -16,13 +16,13 @@ minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
-title_separator          : "s1ag's blog"
-name                     : "Gabriel Bearden"
-description              : "A copypasta blog containing notes, hacks, writeups, and desparate attempts at being funny."
+title                    : "s1ag's blog"
+title_separator          : "-"
+name                     : "Gabe Bearden"
+description              : "The blog of a struggling Computer Science student. Using irony to mask the pain of a sadboi </3."
 url                      : "http://s1ag.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "s1ag/s1ag.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -103,15 +103,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  name             : "Gabe"
+  avatar           : "/assets/images/profile.png"
+  bio              : "Freshman CompSci major at the University of Central Florida. Active member of the InfoSec community, supporter of digital privacy, and Kurt Cobain impersonator."
+  location         : "United States "
+  email            : "s1ag@protonmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
+      url: s1ag@protonmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -123,7 +123,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/s1ag"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
