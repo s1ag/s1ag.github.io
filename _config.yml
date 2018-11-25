@@ -16,9 +16,9 @@ minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "s1ag's blog"
+title                    : "s1ag's blog ♥"
 title_separator          : "-"
-name                     : "Gabe Bearden"
+name                     : "Dat dood"
 description              : "The blog of a struggling Computer Science student. Using irony to mask the pain of a sadboi </3."
 url                      : "http://s1ag.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -103,7 +103,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Gabe"
+  name             : "whoami"
   avatar           : "/assets/images/profile.png"
   bio              : "Freshman CompSci major at the University of Central Florida. Active member of the InfoSec community, supporter of digital privacy, and Kurt Cobain impersonator."
   location         : "United States "
@@ -127,6 +127,7 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+      
 
 # Site Footer
 footer:
