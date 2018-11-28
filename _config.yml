@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "en-US"
 title                    : "s1ag's blog ♥"
 title_separator          : "-"
-name                     : "Dat dood"
+name                     : ":3"
 description              : "The blog of a struggling Computer Science student. Using irony to mask the pain of a sadboi </3."
 url                      : "http://s1ag.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -103,15 +103,17 @@ analytics:
 
 # Site Author
 author:
-  name             : "whoami"
+  name             : "s1ag"
   avatar           : "/assets/images/profile.png"
   bio              : "Freshman CompSci major at the University of Central Florida. Active member of the InfoSec community, supporter of digital privacy, and Kurt Cobain impersonator."
   location         : "United States "
-  email            : "s1ag@protonmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: s1ag@protonmail.com
+    - label: "PGP Key"
+      icon: "fas fa-fw fa-key"
+      url: "/key/"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -291,3 +293,11 @@ defaults:
       comments: # true
       share: true
       related: true
+
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
