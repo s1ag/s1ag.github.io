@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Hack The Box: art Writeup"
-categories: [Art, Stuff]
+categories: [Challenge, HTB]
 header:
     overlay_image: /assets/images/homepageHeader.jpg
 toc: true

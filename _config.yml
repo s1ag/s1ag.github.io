@@ -110,7 +110,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: s1ag@protonmail.com
+      url: mailto:s1ag@protonmail.com
     - label: "PGP Key"
       icon: "fas fa-fw fa-key"
       url: "/key/"
