@@ -14,12 +14,12 @@
 remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
-# Site Settings
+# Site Settings 
 locale                   : "en-US"
-title                    : "s1ag's blog ♥"
+title                    : "S1ag's blog"
 title_separator          : "-"
-name                     : ":3"
-description              : "The blog of a struggling Computer Science student. Using irony to mask the pain of a sadboi </3."
+name                     : ""
+description              : "The blog of a struggling Computer Science student. Using irony to mask the pain </3."
 url                      : "http://s1ag.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "s1ag/s1ag.github.io"
@@ -95,18 +95,17 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : google # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : UA-142383759-1
     anonymize_ip         : # true, false (default)
 
 
 # Site Author
 author:
-  name             : "s1ag"
+  name             : "Gabriel Bearden"
   avatar           : "/assets/images/profile.png"
-  bio              : "Freshman CompSci major at the University of Central Florida. Active member of the InfoSec community, supporter of digital privacy, and Kurt Cobain impersonator."
-  location         : "United States "
+  bio              : "CompSci major at the University of Central Florida. Active member of the InfoSec community, advocate of the Electronic Frontier Foundation, and Kurt Cobain impersonator."
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -119,16 +118,16 @@ author:
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+      url: "https://twitter.com/jesus_grunge?lang=en"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/s1ag"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+    - label: "Electronic Frontier Foundation"
+      icon: "fab fa-fw fa-shield-alt"
+      url: "https://eff.org"
       
 
 # Site Footer
@@ -148,9 +147,6 @@ footer:
       # url:
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
       # url:
 
 
