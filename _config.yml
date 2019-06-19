@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings 
 locale                   : "en-US"
-title                    : "S1ag's blog"
+title                    : "s1ag's blog"
 title_separator          : "-"
 name                     : ""
 description              : "The blog of a struggling Computer Science student. Using irony to mask the pain </3."
@@ -95,10 +95,10 @@ social:
 
 # Analytics
 analytics:
-  provider               : google # false (default), "google", "google-universal", "custom"
+  provider               : "google-universal" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          : UA-142383759-1
-    anonymize_ip         : # true, false (default)
+    anonymize_ip         : false 
 
 
 # Site Author
