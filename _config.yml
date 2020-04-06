@@ -12,14 +12,15 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings 
 locale                   : "en-US"
 title                    : "s1ag's blog"
+masthead_title           : "test"
 title_separator          : "-"
 name                     : ""
-description              : "The blog of a struggling Computer Science student. Using irony to mask the pain </3."
+description              : "Just another blog."
 url                      : "http://s1ag.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "s1ag/s1ag.github.io"
@@ -36,7 +37,7 @@ comments:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    colorscheme          : dark # "light" (default), "dark"
   utterances:
     theme                : # "github-light" (default), "github-dark"
 staticman:
@@ -105,7 +106,7 @@ analytics:
 author:
   name             : "Gabriel Bearden"
   avatar           : "/assets/images/profile.png"
-  bio              : "CompSci major at the University of Central Florida. Active member of the InfoSec community, advocate of the Electronic Frontier Foundation, and Kurt Cobain impersonator."
+  bio              : "IT major at the University of Central Florida. Active member of the InfoSec community, advocate of the Electronic Frontier Foundation, and struggling college student."
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -118,7 +119,7 @@ author:
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/jesus_grunge?lang=en"
+      url: "hhttps://twitter.com/grunge_jesus"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
