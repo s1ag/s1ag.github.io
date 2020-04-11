@@ -16,17 +16,17 @@ minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "s1ag's blog"
+title                    : ""
 title_separator          : "-"
 name                     : "Gabriel Bearden"
 description              : "Just another blog, ya know?"
 url                      : "http://s1ag.github.io" 
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : ""
 repository               : "s1ag/s1ag.github.io"
-# teaser                   : "/assets/images/background.jpeg"
-logo                     : "/assets/images/cres.png"
+# teaser                   : "/assets/images/per-castra-ad-astra-(the-siren)(infinity).png"
+logo                     : "/assets/images/rockingwithlights {8}.png"
 masthead_title           : "Another Blog"
-# breadcrumbs            : false 
+breadcrumbs            : true 
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
@@ -50,7 +50,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
+search                   : true
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
@@ -94,7 +94,7 @@ analytics:
 author:
   name             : "Gabriel Bearden"
   avatar           : "/assets/images/profile.png"
-  bio              : "IT major at the University of Central Florida. Active member of the InfoSec community, advocate of the Electronic Frontier Foundation, and starving college student."
+  bio              : "Just another burnt out IT major trying to survive the grind. Active member of the InfoSec community, member of hackUCF, advocate of the Electronic Frontier Foundation, and typical starving college student. "
   location         : "Somewhere"
   links:
     - label: "Email"
@@ -119,7 +119,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://twitter.com/grunge_jesus"
+      url: "https://github.com/s1ag"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin-in"
       url : "https://www.linkedin.com/in/gabriel-bearden-716301195/"
