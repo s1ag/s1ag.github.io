@@ -14,21 +14,22 @@
 remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
-# Site Settings 
+# Site Settings
 locale                   : "en-US"
-title                    : "s1ag's blog"
-masthead_title           : "test"
+title                    : ""
 title_separator          : "-"
-name                     : ""
-description              : "Just another blog."
-url                      : "http://s1ag.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+name                     : "Gabriel Bearden"
+description              : "Just another blog, ya know?"
+url                      : "http://s1ag.github.io" 
+baseurl                  : ""
 repository               : "s1ag/s1ag.github.io"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-# breadcrumbs            : false # true, false (default)
+# teaser                   : "/assets/images/per-castra-ad-astra-(the-siren)(infinity).png"
+logo                     : "/assets/images/rockingwithlights {8}.png"
+masthead_title           : "Another Blog"
+breadcrumbs            : true 
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -37,26 +38,13 @@ comments:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : dark # "light" (default), "dark"
+    colorscheme          : # "light" (default), "dark"
   utterances:
     theme                : # "github-light" (default), "github-dark"
-staticman:
-  allowedFields          : # ['name', 'email', 'url', 'message']
-  branch                 : # "master"
-  commitMessage          : # "New comment by {fields.name}"
-  filename               : # comment-{@timestamp}
-  format                 : # "yml"
-  moderation             : # true
-  path                   : # "/_data/comments/{options.slug}" (default)
-  requiredFields         : # ['name', 'email', 'message']
-  transforms:
-    email                : # "md5"
-  generatedFields:
-    date:
-      type               : # "date"
-      options:
-        format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-  endpoint               : # URL of your own deployment with trailing slash, will fallback to the public instance
+    issue_term           : # "pathname" (default)
+  staticman:
+    branch               : # "master"
+    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
 reCaptcha:
   siteKey                :
   secret                 :
@@ -96,59 +84,45 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google" # false (default), "google", "google-universal", "custom"
+  provider               : false # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : UA-142383759-1
-    anonymize_ip         : false 
+    tracking_id          :
+    anonymize_ip         : # true, false (default)
 
 
 # Site Author
 author:
   name             : "Gabriel Bearden"
   avatar           : "/assets/images/profile.png"
-  bio              : "IT major at the University of Central Florida. Active member of the InfoSec community, advocate of the Electronic Frontier Foundation, and struggling college student."
+  bio              : "Just another burnt out IT major trying to survive the grind. Active member of the InfoSec community, member of hackUCF, advocate of the Electronic Frontier Foundation, and typical starving college student. "
+  location         : "Somewhere"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:s1ag@protonmail.com
-    - label: "PGP Key"
-      icon: "fas fa-fw fa-key"
-      url: "/key/"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: mailto:"s1ag@protonmail.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "hhttps://twitter.com/grunge_jesus"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: https://twitter.com/grunge_jesus
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/s1ag"
-    - label: "Electronic Frontier Foundation"
-      icon: "fab fa-fw fa-shield-alt"
-      url: "https://eff.org"
-      
+      url: "https://twitter.com/grunge_jesus"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin-in"
+      url : "https://www.linkedin.com/in/gabriel-bearden-716301195/"
 
 # Site Footer
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
+      url: https://twitter.com/grunge_jesus
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
+      url: "https://github.com/s1ag"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin-in"
+      url : "https://www.linkedin.com/in/gabriel-bearden-716301195/"
 
 
 # Reading Files
@@ -176,6 +150,7 @@ exclude:
   - log
   - node_modules
   - package.json
+  - package-lock.json
   - Rakefile
   - README
   - tmp
@@ -211,7 +186,7 @@ kramdown:
 # Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 
 # Outputting
@@ -227,8 +202,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  - jemoji
   - jekyll-include-cache
+  
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -236,7 +211,6 @@ whitelist:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  - jemoji
   - jekyll-include-cache
 
 
@@ -248,8 +222,8 @@ whitelist:
 #  - Archive page should exist at path when using Liquid method or you can
 #    expect broken links (especially with breadcrumbs enabled)
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
+#  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path>/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
   path: /categories/
@@ -270,7 +244,7 @@ tag_archive:
 
 
 # HTML Compression
-# - http://jch.penibelst.de/
+# - https://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
@@ -290,11 +264,3 @@ defaults:
       comments: # true
       share: true
       related: true
-
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
