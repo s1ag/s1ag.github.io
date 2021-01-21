@@ -5,4 +5,4 @@ permalink: /whoami/
 ---
 Whoami?
 
-Glad you asked, 
+Glad you asked.
