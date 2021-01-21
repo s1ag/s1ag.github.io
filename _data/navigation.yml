@@ -1,15 +1,8 @@
 # main links
 main:
-  - title: "Home"
-  - url: /blog
-  - title: "About"
-  - url: /about/
-  - title: "Portfolio"
-  - url: /portfolio 
-
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/   s
+  - title: "home"
+    url: /
+  - title: "whoami"
+    url: /whoami/
+  - title: "contact"
+    url: /key/

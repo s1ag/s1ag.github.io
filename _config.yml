@@ -94,7 +94,7 @@ analytics:
 author:
   name             : "Gabriel Bearden"
   avatar           : "/assets/images/profile.png"
-  bio              : "Just another burnt out IT major trying to survive the grind. Active member of the InfoSec community, member of hackUCF, advocate of the Electronic Frontier Foundation, and typical starving college student. "
+  bio              : "Infosec Jesus at the University of Central Florida, Practitioner of the Offsec Arts, Advocate for the Electronic Frontier, and member of HackUCF."
   location         : "Somewhere"
   links:
     - label: "Email"
@@ -105,7 +105,7 @@ author:
       url: https://twitter.com/grunge_jesus
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://twitter.com/grunge_jesus"
+      url: "https://github.com/s1ag"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin-in"
       url : "https://www.linkedin.com/in/gabriel-bearden-716301195/"
