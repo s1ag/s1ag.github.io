@@ -3,6 +3,7 @@ title: "HacktheBox: Art Challenge"
 excerpt: "A fun little steganography challenge!"
 author_profile: true
 toc: true
+
 ---
 
 
@@ -22,18 +23,18 @@ Art is a relatively simple steganography challenge that imploys an esoteric prog
 ## Step-by-Step Solution 
 
 
-### Step 1: First Glance: WTF is this?
+### Step 1: First Glance 
 
 - After attempting to use stego tools, I determined it didn't contain hidden metadata.
 - At the time of solving this challenge, the instructions weren't very specific. A user on the formums hinted to "Look up obscure and crazy programming languages" as a clue (mfw this challenge is in fact, incredibly obscure)
 
-### Step 2: Identification: Sneaky
+### Step 2: Identification
 
 - After some searching, I finally determined a graphical bitmap-based language called `piet`. Upon looking at some examples, it was clear that this is what our given picture was.
 - The .png is actually a compiled program and each square represents some obscure form of data.
 - Now that we know what this is, we also know that there is some form of interpreter or compiler we can use. 
 
-### Step 3: Solution: Ayyye
+### Step 3: Solution
 
 - After some google-fu, I found an online interpreter for piet at https://www.bertnase.de/npiet/npiet-execute.php 
 - After uploading the png file, we're presented with a flag
